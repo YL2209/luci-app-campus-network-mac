@@ -17,8 +17,7 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - 'luasrc/**'
-      - 'Makefile'
+      - 'luci-app-wan-mac/**'
       - '.github/workflows/openwrt-sdk-mt7621.yml'
 
 env:
