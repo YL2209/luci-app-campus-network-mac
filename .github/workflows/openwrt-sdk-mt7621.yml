@@ -28,7 +28,7 @@ env:
   RELEASE_VERSION: 21.02.0
   TOOLCHAIN: gcc-8.4.0_musl
   PACKAGE: luci-app-wan-mac
-  PACKAGE_IPK: wan-mac
+  PACKAGE_IPK: mac
   IPK_ALL: false
   DIY_P_SH: workflows/diy-part.sh
   UPLOAD_RELEASE: true
