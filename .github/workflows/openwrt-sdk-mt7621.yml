@@ -26,7 +26,7 @@ env:
   TARGET_SYATEM: ramips
   SUBTARGET: mt7621
   RELEASE_VERSION: 21.02.0
-  TOOLCHAIN: gcc-13.3.0_musl
+  TOOLCHAIN: gcc-8.4.0_musl
   PACKAGE: luci-app-wan-mac
   PACKAGE_IPK: wan-mac
   IPK_ALL: false
