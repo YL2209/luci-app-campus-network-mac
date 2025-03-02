@@ -25,8 +25,8 @@ env:
   BASE_URL: https://downloads.openwrt.org/releases
   TARGET_SYATEM: ramips
   SUBTARGET: mt7621
-  RELEASE_VERSION: 21.02.0
-  TOOLCHAIN: gcc-8.4.0_musl
+  RELEASE_VERSION: 24.10.0
+  TOOLCHAIN: gcc-13.3.0_musl
   PACKAGE: luci-app-wan-mac
   PACKAGE_IPK: mac
   IPK_ALL: false
