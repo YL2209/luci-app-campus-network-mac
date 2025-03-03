@@ -1,6 +1,7 @@
 #!/bin/bash
 
 git clone https://github.com/YL2209/luci-app-campus-network-mac.git package/luci-app-campus-network-mac
+chmod 755 package/luci-app-campus-network-mac/luci-app-wan-mac/root/etc/init.d/wan_mac
 ./scripts/feeds install luci-app-wan-mac
 echo "CONFIG_ALL_NONSHARED=n" > .config
 echo "CONFIG_ALL_KMODS=n" >> .config

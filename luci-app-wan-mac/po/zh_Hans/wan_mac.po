@@ -40,10 +40,10 @@ msgstr "启用"
 
 #: applications/luci-app-wan-mac/htdocs/luci-static/resources/view/wan_mac.js:85
 msgid "MAC Address Settings"
-msgstr "MA C地址设置"
+msgstr "MAC 地址设置"
 
 #: applications/luci-app-wan-mac/htdocs/luci-static/resources/view/wan_mac.js:86
-msgid "Select a prefix and click the 'Randomly Generate Using Prefix' button to generate a MAC address"
+msgid "Select a prefix and click the「Randomly Generate Using Prefix」button to generate a MAC address"
 msgstr "选择一个前缀并点击『使用前缀随机生成』按钮生成 MAC 地址"
 
 #: applications/luci-app-wan-mac/htdocs/luci-static/resources/view/wan_mac.js:90
@@ -51,7 +51,7 @@ msgid "MAC address prefix"
 msgstr "MAC 地址前缀"
 
 #: applications/luci-app-wan-mac/htdocs/luci-static/resources/view/wan_mac.js:90
-msgid "Supports "000000" format"
+msgid "Supports「000000」format"
 msgstr "支持「000000」格式"
 
 #: applications/luci-app-wan-mac/htdocs/luci-static/resources/view/wan_mac.js:109
@@ -59,7 +59,7 @@ msgid "MAC address"
 msgstr "MAC 地址"
 
 #: applications/luci-app-wan-mac/htdocs/luci-static/resources/view/wan_mac.js:109
-msgid "Supports "00:00:00:00:00:00" format"
+msgid "Supports「00:00:00:00:00:00」format"
 msgstr "支持「00:00:00:00:00:00」格式"
 
 #: applications/luci-app-wan-mac/htdocs/luci-static/resources/view/wan_mac.js:113

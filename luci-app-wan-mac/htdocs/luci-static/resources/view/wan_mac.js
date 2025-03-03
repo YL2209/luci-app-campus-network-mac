@@ -83,11 +83,11 @@ return view.extend({
         o.rmempty   = false;
 
         s = m.section(form.NamedSection, 'config', 'wan_mac', _('MAC Address Settings'),
-            _('Select a prefix and click the "Randomly Generate Using Prefix" button to generate a MAC address'));
+            _('Select a prefix and click the「Randomly Generate Using Prefix」button to generate a MAC address'));
         s.anonymous = true;
         s.addremove = false;
 
-        o = s.option(form.Value, 'prefix', _('MAC address prefix'), _('Supports "000000" format'))
+        o = s.option(form.Value, 'prefix', _('MAC address prefix'), _('Supports「000000」format'))
         o.datatype  = 'and(hexstring,rangelength(2,8))';
         [
             ["044A6C", "Huawei"],
@@ -118,7 +118,7 @@ return view.extend({
             o.value(oui[0], oui[0] + ' (' + oui[1] + ')');
         });
 
-        o = s.option(CBIMacAddress, 'macaddr', _('MAC address'), _('Supports "00:00:00:00:00:00" format'))
+        o = s.option(CBIMacAddress, 'macaddr', _('MAC address'), _('Supports「00:00:00:00:00:00」format'))
         o.datatype   = 'macaddr';
         o.rmempty    = false;
         o.placeholder = '02:00:00:00:00:00';
